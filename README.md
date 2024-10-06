@@ -3,15 +3,15 @@
 ## Create and Activate Project Virtual Environment
 
 ```shell
-py -m venv .venv
+python -m venv .venv
 .venv\Scripts\Activate
-py -m pip install -r "requirements.txt"
+python -m pip install -r "requirements.txt"
 ```
 
 ## Freeze Requirements
 
 ```shell
-py -m pip freeze > requirements.txt
+python -m pip freeze > requirements.txt
 ```
 
 ## Git Add / Commit / Push 

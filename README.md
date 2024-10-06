@@ -14,7 +14,7 @@ python -m pip install -r "requirements.txt"
 python -m pip freeze > requirements.txt
 ```
 
-## Git Add / Commit / Push 
+## Git Add / Commit / Push
 
 ```shell
 git add .
@@ -25,13 +25,12 @@ git push -u origin main
 ## How to install system requrements
 
 ```shell
-py -m pip install jupyterlab numpy pandas matplotlib seaborn scipy
+python -m pip install jupyterlab numpy pandas matplotlib seaborn scipy
 ```
 
 ## How to start Jupyter notebook
 
-### Navagate to project folder, then run:
-
+### Navagate to project folder, then run
 
 ```shell
 jupyter lab
